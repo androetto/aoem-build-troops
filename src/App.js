@@ -47,7 +47,7 @@ const App = () => {
       const updatedHeroes = { ...heroes };
       
       if (hero.id === 1) updatedHeroes.mythics.push(hero);
-      else if (hero.id >= 2 && hero.id <= 9) updatedHeroes.legendaries.push(hero); 
+      else if (hero.id >= 2 && hero.id <= 19) updatedHeroes.legendaries.push(hero); 
       else updatedHeroes.epics.push(hero); 
   
       setHeroes(updatedHeroes);
