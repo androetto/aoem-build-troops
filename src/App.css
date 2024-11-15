@@ -7,10 +7,10 @@
 }
 
 .left-grid {
-  width: 40%;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  
 }
 
 .troop-row {
@@ -67,12 +67,11 @@
 }
 
 .right-grid {
-  width: 40%;
+  width: 100%;
   display: flex;
   position: relative;
   flex-direction: column;
   gap: 20px;
-  margin-left: -180px;
 }
 
 .hero-category {
@@ -109,3 +108,4 @@
   display: flex;
   justify-content: center; /* Centra el nombre horizontalmente */
 }
+

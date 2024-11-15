@@ -25,7 +25,6 @@ const App = () => {
       );
       setTroops(updatedTroops);
 
-      // Quitar el héroe del lado derecho
       const updatedHeroes = { ...heroes };
       updatedHeroes[heroCategory] = updatedHeroes[heroCategory].filter(
         (h) => h.id !== hero.id
