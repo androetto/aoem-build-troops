@@ -11,7 +11,6 @@ import WeWei from './assets/Wu_Wei.webp';
 
 export const heroesList = {
   mythics: [
-
     { id: 1, name: 'King Arthur', image: KingArthur },
   ],
   legendaries: [
@@ -23,10 +22,8 @@ export const heroesList = {
     { id: 7, name: 'Hummurabi', image: Hammurabi},
     { id: 8, name: 'Li Daoxuan', image: LiDaoxuan},
     { id: 9, name: 'Thanius', image: Thanius},
-    { id: 10, name: 'We Wei', image: WeWei}
-
   ],
   epics: [
-
+    { id: 10, name: 'We Wei', image: WeWei}
   ],
 };
