@@ -10,7 +10,7 @@
   width: 40%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .troop-row {
@@ -22,7 +22,7 @@
 
 .row-number {
   width: 40px;
-  height: 180px;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +41,7 @@
 
 .troop-slot {
   width: 150px;
-  height: 180px;
+  height: 150px;
   background-color: lightgray;
   display: flex;
   flex-direction: column;

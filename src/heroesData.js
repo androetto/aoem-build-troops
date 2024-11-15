@@ -2,21 +2,31 @@ import Josephine from './assets/Josephine.webp';
 import JoanOfArc from './assets/Joan_of_Arc.webp';
 import Hammurabi from './assets/Hammurabi.webp';
 import GuanYu from './assets/Guan_Yu.webp';
+import Harald3 from './assets/Harald_III.webp';
+import Kaso from './assets/Kaso.webp';
+import KingArthur from './assets/King_Arthur.webp';
+import LiDaoxuan from './assets/Li_daoxuan.webp';
+import Thanius from './assets/Thanius.webp';
+import WeWei from './assets/Wu_Wei.webp';
 
 export const heroesList = {
   mythics: [
-    { id: 1, name: 'Josephine', image: Josephine },
-    { id: 2, name: 'Juan of arc', image: JoanOfArc },
-    { id: 3, name: 'Hero 3', image: GuanYu },
-    { id: 4, name: 'Hero 4', image: JoanOfArc },
-    { id: 5, name: 'Hero 5', image: JoanOfArc },
-    { id: 6, name: 'Hero 6', image: JoanOfArc },
-    { id: 7, name: 'Hero 7', image: JoanOfArc },
+
+    { id: 1, name: 'King Arthur', image: KingArthur },
   ],
   legendaries: [
-    { id: 8, name: 'Hero 8', image: JoanOfArc },
+    { id: 2, name: 'Josephine', image: Josephine },
+    { id: 3, name: 'Juan of arc', image: JoanOfArc },
+    { id: 4, name: 'Guan Yu', image: GuanYu },
+    { id: 5, name: 'Harald |||', image: Harald3 },
+    { id: 6, name: 'Kaso', image: Kaso },
+    { id: 7, name: 'Hummurabi', image: Hammurabi},
+    { id: 8, name: 'Li Daoxuan', image: LiDaoxuan},
+    { id: 9, name: 'Thanius', image: Thanius},
+    { id: 10, name: 'We Wei', image: WeWei}
+
   ],
   epics: [
-    { id: 9, name: 'Hero 9', image: Hammurabi },
+
   ],
 };
