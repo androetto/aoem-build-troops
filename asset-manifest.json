@@ -1,19 +1,25 @@
 {
   "files": {
-    "main.css": "/aoem-build-troops/static/css/main.d4ed40af.css",
-    "main.js": "/aoem-build-troops/static/js/main.74402c56.js",
+    "main.css": "/aoem-build-troops/static/css/main.9486441d.css",
+    "main.js": "/aoem-build-troops/static/js/main.a9ed77b5.js",
     "static/js/453.a4e79f14.chunk.js": "/aoem-build-troops/static/js/453.a4e79f14.chunk.js",
+    "static/media/King_Arthur.webp": "/aoem-build-troops/static/media/King_Arthur.d47dbc89ebc1a742b104.webp",
+    "static/media/Kaso.webp": "/aoem-build-troops/static/media/Kaso.7d716b43601b875ccc20.webp",
+    "static/media/Thanius.webp": "/aoem-build-troops/static/media/Thanius.731491aca515e6c4b4f6.webp",
+    "static/media/Li_daoxuan.webp": "/aoem-build-troops/static/media/Li_daoxuan.4d71a6f0df95b4d30f0f.webp",
+    "static/media/Harald_III.webp": "/aoem-build-troops/static/media/Harald_III.995433cfda0c7180a3e9.webp",
     "static/media/Hammurabi.webp": "/aoem-build-troops/static/media/Hammurabi.92a9e3eaf58c01fb6e54.webp",
+    "static/media/Wu_Wei.webp": "/aoem-build-troops/static/media/Wu_Wei.6fd92dfc75a16b9e4578.webp",
     "static/media/Joan_of_Arc.webp": "/aoem-build-troops/static/media/Joan_of_Arc.18f43896ad7e3f8399cf.webp",
     "static/media/Josephine.webp": "/aoem-build-troops/static/media/Josephine.c254542d1cfba61ac3da.webp",
     "static/media/Guan_Yu.webp": "/aoem-build-troops/static/media/Guan_Yu.97feaedf52a1d9986028.webp",
     "index.html": "/aoem-build-troops/index.html",
-    "main.d4ed40af.css.map": "/aoem-build-troops/static/css/main.d4ed40af.css.map",
-    "main.74402c56.js.map": "/aoem-build-troops/static/js/main.74402c56.js.map",
+    "main.9486441d.css.map": "/aoem-build-troops/static/css/main.9486441d.css.map",
+    "main.a9ed77b5.js.map": "/aoem-build-troops/static/js/main.a9ed77b5.js.map",
     "453.a4e79f14.chunk.js.map": "/aoem-build-troops/static/js/453.a4e79f14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4ed40af.css",
-    "static/js/main.74402c56.js"
+    "static/css/main.9486441d.css",
+    "static/js/main.a9ed77b5.js"
   ]
 }
