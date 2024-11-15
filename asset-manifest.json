@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aoem-build-troops/static/css/main.9e5557f8.css",
-    "main.js": "/aoem-build-troops/static/js/main.fdc605a4.js",
+    "main.js": "/aoem-build-troops/static/js/main.711176fe.js",
     "static/js/453.a4e79f14.chunk.js": "/aoem-build-troops/static/js/453.a4e79f14.chunk.js",
     "static/media/Lv_Bu.webp": "/aoem-build-troops/static/media/Lv_Bu.e72ac59ef8d2bd7d0304.webp",
     "static/media/King_Arthur.webp": "/aoem-build-troops/static/media/King_Arthur.d47dbc89ebc1a742b104.webp",
@@ -35,11 +35,11 @@
     "static/media/Yuan_Xia.webp": "/aoem-build-troops/static/media/Yuan_Xia.fe6255d028adb925bab9.webp",
     "index.html": "/aoem-build-troops/index.html",
     "main.9e5557f8.css.map": "/aoem-build-troops/static/css/main.9e5557f8.css.map",
-    "main.fdc605a4.js.map": "/aoem-build-troops/static/js/main.fdc605a4.js.map",
+    "main.711176fe.js.map": "/aoem-build-troops/static/js/main.711176fe.js.map",
     "453.a4e79f14.chunk.js.map": "/aoem-build-troops/static/js/453.a4e79f14.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e5557f8.css",
-    "static/js/main.fdc605a4.js"
+    "static/js/main.711176fe.js"
   ]
 }
