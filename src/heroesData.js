@@ -56,7 +56,6 @@ export const heroesList = {
     { id: 22, name: "Rani Durgavati", image: RaniDurgavati},
     { id: 23, name: "Felipe VI", image: no},
     { id: 24, name: "Federick Barbarossa", image: FederickBarbarossa},
-    { id: 25, name: "Federick Barbarossa", image: FederickBarbarossa},
     { id: 26, name: "Miyamato Musashi", image: MiyamotoMusashi},
     { id: 27, name: "Tariq", image: no},
     { id: 28, name: "Anibal", image: no},
