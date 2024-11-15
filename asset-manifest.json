@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/aoem-build-troops/static/css/main.f855e6bc.css",
-    "main.js": "/aoem-build-troops/static/js/main.6ac73749.js",
+    "main.css": "/aoem-build-troops/static/css/main.d4ed40af.css",
+    "main.js": "/aoem-build-troops/static/js/main.74402c56.js",
     "static/js/453.a4e79f14.chunk.js": "/aoem-build-troops/static/js/453.a4e79f14.chunk.js",
-    "static/media/logo.svg": "/aoem-build-troops/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Hammurabi.webp": "/aoem-build-troops/static/media/Hammurabi.92a9e3eaf58c01fb6e54.webp",
+    "static/media/Joan_of_Arc.webp": "/aoem-build-troops/static/media/Joan_of_Arc.18f43896ad7e3f8399cf.webp",
+    "static/media/Josephine.webp": "/aoem-build-troops/static/media/Josephine.c254542d1cfba61ac3da.webp",
+    "static/media/Guan_Yu.webp": "/aoem-build-troops/static/media/Guan_Yu.97feaedf52a1d9986028.webp",
     "index.html": "/aoem-build-troops/index.html",
-    "main.f855e6bc.css.map": "/aoem-build-troops/static/css/main.f855e6bc.css.map",
-    "main.6ac73749.js.map": "/aoem-build-troops/static/js/main.6ac73749.js.map",
+    "main.d4ed40af.css.map": "/aoem-build-troops/static/css/main.d4ed40af.css.map",
+    "main.74402c56.js.map": "/aoem-build-troops/static/js/main.74402c56.js.map",
     "453.a4e79f14.chunk.js.map": "/aoem-build-troops/static/js/453.a4e79f14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.6ac73749.js"
+    "static/css/main.d4ed40af.css",
+    "static/js/main.74402c56.js"
   ]
 }
