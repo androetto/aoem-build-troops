@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { heroesList } from "./heroesData";
+import heroesList from "./heroesData"; // Importamos sin destructurar ya que ahora es un array plano
 import "./App.css";
 
 const App = () => {
@@ -13,8 +13,7 @@ const App = () => {
   const handleDrop = (e, troopIndex, slotIndex) => {
     e.preventDefault();
     const heroId = e.dataTransfer.getData("heroId");
-    const heroCategory = e.dataTransfer.getData("category");
-    const hero = heroes[heroCategory].find((h) => h.id === parseInt(heroId));
+    const hero = heroes.find((h) => h.id === parseInt(heroId));
 
     if (hero && !troops[troopIndex][slotIndex]) {
       // Actualizar tropas
@@ -25,38 +24,31 @@ const App = () => {
       );
       setTroops(updatedTroops);
 
-      const updatedHeroes = { ...heroes };
-      updatedHeroes[heroCategory] = updatedHeroes[heroCategory].filter(
-        (h) => h.id !== hero.id
-      );
+      // Remover héroe de la lista
+      const updatedHeroes = heroes.filter((h) => h.id !== hero.id);
       setHeroes(updatedHeroes);
     }
   };
 
   const handleReturn = (troopIndex, slotIndex) => {
     const hero = troops[troopIndex][slotIndex];
-  
+
     if (hero) {
+      // Eliminar héroe de la tropa
       const updatedTroops = troops.map((row, i) =>
         row.map((slot, j) =>
           i === troopIndex && j === slotIndex ? null : slot
         )
       );
       setTroops(updatedTroops);
-  
-      const updatedHeroes = { ...heroes };
-      
-      if (hero.id === 1) updatedHeroes.mythics.push(hero);
-      else if (hero.id >= 2 && hero.id <= 37) updatedHeroes.legendaries.push(hero); 
-      else updatedHeroes.epics.push(hero); 
-  
-      setHeroes(updatedHeroes);
+
+      // Devolver héroe a la lista
+      setHeroes([...heroes, hero]);
     }
   };
 
-  const onDragStart = (e, hero, category) => {
+  const onDragStart = (e, hero) => {
     e.dataTransfer.setData("heroId", hero.id);
-    e.dataTransfer.setData("category", category);
   };
 
   return (
@@ -91,24 +83,19 @@ const App = () => {
       </div>
 
       <div className="right-grid">
-        {Object.entries(heroes).map(([category, heroList]) => (
-          <div key={category} className="hero-category">
-            <h3>{category.toUpperCase()}</h3>
-            <div className="category-grid">
-              {heroList.map((hero) => (
-                <div
-                  key={hero.id}
-                  className="hero-card"
-                  draggable
-                  onDragStart={(e) => onDragStart(e, hero, category)}
-                >
-                  <img src={hero.image} alt={hero.name} className="hero-img" />
-                  <div className="hero-name">{hero.name}</div>
-                </div>
-              ))}
+        <div className="hero-list">
+          {heroes.map((hero) => (
+            <div
+              key={hero.id}
+              className="hero-card"
+              draggable
+              onDragStart={(e) => onDragStart(e, hero)}
+            >
+              <img src={hero.image} alt={hero.name} className="hero-img" />
+              <div className="hero-name">{hero.name}</div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
