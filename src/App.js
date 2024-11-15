@@ -36,7 +36,7 @@ const App = () => {
 
   const handleReturn = (troopIndex, slotIndex) => {
     const hero = troops[troopIndex][slotIndex];
-
+  
     if (hero) {
       const updatedTroops = troops.map((row, i) =>
         row.map((slot, j) =>
@@ -44,13 +44,13 @@ const App = () => {
         )
       );
       setTroops(updatedTroops);
-
-      // Devolver el héroe al lado derecho
+  
       const updatedHeroes = { ...heroes };
+      
       if (hero.id === 1) updatedHeroes.mythics.push(hero);
-      else if (hero.id === 2) updatedHeroes.legendaries.push(hero);
-      else updatedHeroes.epics.push(hero);
-
+      else if (hero.id >= 2 && hero.id <= 9) updatedHeroes.legendaries.push(hero); 
+      else updatedHeroes.epics.push(hero); 
+  
       setHeroes(updatedHeroes);
     }
   };
@@ -77,11 +77,14 @@ const App = () => {
               >
                 {slot && (
                   <>
-                  <img src={slot.image} alt={slot.name} className="hero-img" />
-                  <div className="hero-name">{slot.name}</div> {/* Nombre debajo de la imagen */}
+                    <img
+                      src={slot.image}
+                      alt={slot.name}
+                      className="hero-img"
+                    />
+                    <div className="hero-name">{slot.name}</div>
                   </>
                 )}
-                
               </div>
             ))}
           </div>
