@@ -2,7 +2,8 @@
   display: flex;
   gap: 20px; 
   padding: 20px;
-  min-height: 90vh; 
+  min-height: 100vh; 
+  overflow: hidden;
   background: linear-gradient(180deg, #c8b59d, #e0d0b5);
 }
 
@@ -17,6 +18,7 @@
   display: flex;
   width: 600px;
   gap: 10px;
+  height: auto;
   align-items: center;
 }
 
@@ -71,7 +73,7 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .hero-category {
@@ -80,10 +82,22 @@
   gap: 10px;
 }
 
+.hero-category h3 {
+  font-size: 18px; /* Tamaño más moderado */
+  font-weight: 600; /* Peso menos prominente */
+  color: #4a4a4a; /* Color gris oscuro */
+  text-align: left; /* Centrado */
+  margin-bottom: 15px; /* Espacio debajo */
+  text-transform: capitalize; /* Ajusta la capitalización */
+  letter-spacing: 1px; /* Espaciado para elegancia */
+  border-bottom: 1px solid #e0e0e0; /* Línea sutil debajo */
+  padding-bottom: 5px; /* Espacio interno */
+}
+
 .category-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, 100px);
-  gap: 10px;
+  gap: 20px;
 }
 
 .hero-card {
@@ -97,15 +111,16 @@
 }
 
 .hero-name {
-  font-size: 15px; /* Tamaño de fuente más pequeño */
+  font-size: 13px; /* Tamaño ajustado */
   font-weight: bold;
   color: #333;
-  margin-top: 5px; /* Espacio entre la imagen y el nombre */
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 100%; /* Asegura que ocupe el ancho total del contenedor */
-  display: flex;
-  justify-content: center; /* Centra el nombre horizontalmente */
+  margin-top: 5px;
+  text-align: center; /* Centrado horizontalmente */
+  overflow: hidden; /* Oculta cualquier desbordamiento */
+  white-space: normal; /* Permite envolver el texto */
+  word-wrap: break-word; /* Permite el corte de palabras largas */
+  max-width: 100%; /* Asegura que no exceda el contenedor */
+  line-height: 1.2; /* Espaciado entre líneas */
+  height: auto; /* Ajusta la altura según el contenido */
 }
 
