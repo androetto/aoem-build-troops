@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aoem-build-troops/static/css/main.9510bbdd.css",
-    "main.js": "/aoem-build-troops/static/js/main.3dedf6bb.js",
+    "main.css": "/aoem-build-troops/static/css/main.cef4a2ef.css",
+    "main.js": "/aoem-build-troops/static/js/main.33e95b06.js",
     "static/js/453.37261662.chunk.js": "/aoem-build-troops/static/js/453.37261662.chunk.js",
     "static/media/Bellevue-Icon.png": "/aoem-build-troops/static/media/Bellevue-Icon.5a4a763dbc2301751fd8.png",
     "static/media/Tokugawa-Ieyasu.png": "/aoem-build-troops/static/media/Tokugawa-Ieyasu.a1563102945ce6dfa3da.png",
@@ -63,12 +63,12 @@
     "static/media/Hua-Mulan-Icon-1.webp": "/aoem-build-troops/static/media/Hua-Mulan-Icon-1.67450c7830c721f8f4cb.webp",
     "static/media/luki-Icon.webp": "/aoem-build-troops/static/media/luki-Icon.0845baa781ff87803568.webp",
     "index.html": "/aoem-build-troops/index.html",
-    "main.9510bbdd.css.map": "/aoem-build-troops/static/css/main.9510bbdd.css.map",
-    "main.3dedf6bb.js.map": "/aoem-build-troops/static/js/main.3dedf6bb.js.map",
+    "main.cef4a2ef.css.map": "/aoem-build-troops/static/css/main.cef4a2ef.css.map",
+    "main.33e95b06.js.map": "/aoem-build-troops/static/js/main.33e95b06.js.map",
     "453.37261662.chunk.js.map": "/aoem-build-troops/static/js/453.37261662.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9510bbdd.css",
-    "static/js/main.3dedf6bb.js"
+    "static/css/main.cef4a2ef.css",
+    "static/js/main.33e95b06.js"
   ]
 }
