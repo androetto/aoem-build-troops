@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import heroesList from "./heroesData"; // Importamos sin destructurar ya que ahora es un array plano
 import "./App.css";
+import html2canvas from "html2canvas";
 
 const App = () => {
   const [troops, setTroops] = useState(
@@ -51,6 +52,20 @@ const App = () => {
     e.dataTransfer.setData("heroId", hero.id);
   };
 
+  const downloadFormationImage = async () => {
+    const formationElement = document.querySelector(".left-grid");
+
+    const button = document.querySelector(".download-button");
+    button.style.display = "none";
+    if (formationElement) {
+      const canvas = await html2canvas(formationElement);
+      const link = document.createElement("a");
+      link.download = "troops.png";
+      link.href = canvas.toDataURL("image/png");
+      link.click();
+    }
+  };
+
   return (
     <div className="App">
       <div className="left-grid">
@@ -80,6 +95,9 @@ const App = () => {
             ))}
           </div>
         ))}
+        <button onClick={downloadFormationImage} className="download-button">
+          Download troops
+        </button>
       </div>
 
       <div className="right-grid">
